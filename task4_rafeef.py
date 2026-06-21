@@ -147,11 +147,3 @@ Original file is located at
 # 
 # except FileNotFoundError:
 #     st.error(" خطأ: لم يتم العثور على ملف `data88.csv`. تأكد من رفعه في قائمة الملفات الجانبية في Colab.")
-
-!pip install streamlit -q
-!npm install -g localtunnel -q
-
-!wget -qO- ipv4.icanhazip.com
-
-print("\n")
-!streamlit run app.py & npx localtunnel --port 8501
